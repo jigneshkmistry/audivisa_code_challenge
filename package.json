@@ -1,0 +1,29 @@
+{
+  "name": "audivisa_coding_challenge",
+  "version": "1.0.0",
+  "description": "coding challenge for audivisa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc index.ts",
+    "dev": "ts-node ./index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jigneshkmistry/audivisa_coding_challenge.git"
+  },
+  "keywords": [
+    "coding",
+    "challenge",
+    "audivisa"
+  ],
+  "author": "Jignesh K Mistry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jigneshkmistry/audivisa_coding_challenge/issues"
+  },
+  "homepage": "https://github.com/jigneshkmistry/audivisa_coding_challenge#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}

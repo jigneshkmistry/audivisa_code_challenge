@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "target": "es2016",
+        "lib":["ES2016", "DOM"],
+        "module": "commonjs",
+        "sourceMap": true
+    }
+}
