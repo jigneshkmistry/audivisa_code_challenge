@@ -16,7 +16,7 @@ export abstract class User {
         this.lastName = lastName;
         this.email = email;
         this.photo = photo;
-        this.userID - userID;
+        this.userID = userID;
         this.type = type;
     }
 
@@ -40,6 +40,10 @@ export abstract class User {
         return this.userID;
     }
 
+    /**
+     * 
+     * @returns true only if user has valid email and valid photo selected else false
+     */    
     saveUser(): boolean {
 
         let retVal = false;
